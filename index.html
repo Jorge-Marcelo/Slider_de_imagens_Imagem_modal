@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Slider de Imagens e Imagem Modal</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+<body>
+
+<!--Tag principal-->
+<main class="container">
+
+<!--Container do Slider-->
+<section>
+<h1>Slider de Imagens e Imagem Modal</h1>
+
+<!--Container das imagens-->
+<figure class="slides">
+<img src="assets/img/slider/1.png" class="slide">
+</figure>
+
+
+<figure class="slides">
+<img src="assets/img/slider/2.png" class="slide">
+</figure>
+
+<figure class="slides">
+<img src="assets/img/slider/3.png" class="slide">
+</figure>
+
+
+<figure class="slides">
+<img src="assets/img/slider/4.png" class="slide">
+</figure>
+
+<figure class="slides">
+<img src="assets/img/slider/5.png" class="slide">
+</figure>
+
+<figure class="slides">
+<img src="assets/img/slider/6.png" class="slide">
+</figure>
+
+<!--Controles do slider-->
+<button class="anterior" onclick="controles(-1)">&#10094;</button>
+<button class="proximo"   onclick="controles(1)">&#10095;</button>
+
+
+<!--Botão de fechar do modal e container do modal-->
+<div id="myModal" class="modal">
+<span class="close" id="close">&times</span>
+<img class="modal-content" id="modalImg">
+</div>
+
+<!--Miniaturas do modal-->
+<article>
+<img src="assets/img/slider/1.png" class="miniaturas">
+<img src="assets/img/slider/2.png" class="miniaturas">
+<img src="assets/img/slider/3.png" class="miniaturas">
+<img src="assets/img/slider/4.png" class="miniaturas">
+<img src="assets/img/slider/5.png" class="miniaturas">
+<img src="assets/img/slider/6.png" class="miniaturas">
+</article>
+
+<h1>By: Jorge Marcelo</h1>
+
+
+<!--Rodape e Redes Sociais-->
+<footer>
+<table>
+<tr>
+<td>
+<button class="social" id="github">
+<img src="assets/img/footer/github.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="linkedin">
+<img src="assets/img/footer/linkedin.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="instagram">
+<img src="assets/img/footer/insta.png">
+</button>
+</td>
+    
+<td>
+<button class="social" id="threads">
+<img src="assets/img/footer/threads.png">
+</button>
+</td>
+</tr>
+</table>
+</footer>
+</section>
+</main>    
+
+<script src='js/cript.js'></script>
+</body>
+</html>
