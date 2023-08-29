@@ -39,7 +39,7 @@ if(numero > slides.length ){indiceSlides = 1}
 /*Condição 2 - Caso o numero de imans seja menor que o tamanho do slider
 Loop for vai percorrer  por todas as imagens e miniaturas
 adicionar o display none*/ 
-if (numero < 1){indiceSlides - slides.length};
+if (numero < 1) { indiceSlides = slides.length };
 for (contador = 0; contador < slides.length; contador++){
 slides[contador].style.display = "none";
 miniaturas[contador].classList.remove("active");
